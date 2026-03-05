@@ -44,7 +44,7 @@ public class GradeManager {
         System.out.print("Enter course name: ");
         String name = scanner.nextLine();
         
-        System.out.print("Enter credits: ");
+        System.out.print("Enter units: ");
         int credits = Integer.parseInt(scanner.nextLine());
         
         Course newCourse = new Course(code, name, credits);
